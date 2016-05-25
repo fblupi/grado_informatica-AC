@@ -1,0 +1,23 @@
+#!/bin/bash
+
+touch result-b-PC.dat
+rm result-b-PC.dat
+
+export OMP_DYNAMIC=FALSE
+
+export OMP_NUM_THREADS=1
+./pmv-OpenMP-b 100 >> result-b-PC.dat
+./pmv-OpenMP-b 1000 >> result-b-PC.dat
+./pmv-OpenMP-b 10000 >> result-b-PC.dat
+export OMP_NUM_THREADS=2
+./pmv-OpenMP-b 100 >> result-b-PC.dat
+./pmv-OpenMP-b 1000 >> result-b-PC.dat
+./pmv-OpenMP-b 10000 >> result-b-PC.dat
+export OMP_NUM_THREADS=3
+./pmv-OpenMP-b 100 >> result-b-PC.dat
+./pmv-OpenMP-b 1000 >> result-b-PC.dat
+./pmv-OpenMP-b 10000 >> result-b-PC.dat
+export OMP_NUM_THREADS=4
+./pmv-OpenMP-b 100 >> result-b-PC.dat
+./pmv-OpenMP-b 1000 >> result-b-PC.dat
+./pmv-OpenMP-b 10000 >> result-b-PC.dat

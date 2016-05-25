@@ -1,0 +1,85 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 13.04.2 ] */
+
+/* [wxMaxima: comment start ]
+DATOS:
+- 6 instrucciones en bucle, 7 fuera de bucle
+- 3 instrucciones (FLOAT) en bucle, 0 fuera del bucle
+MIPS=NI/(T_cpu*10^6)
+MFLOPS=NI_float/(T_cpu*10^6)
+   [wxMaxima: comment end   ] */
+
+/* [wxMaxima: section start ]
+MIPS
+   [wxMaxima: section end   ] */
+
+/* [wxMaxima: comment start ]
+10
+   [wxMaxima: comment end   ] */
+
+/* [wxMaxima: input   start ] */
+float(67/(0.000403428*10^6));
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: comment start ]
+1000
+   [wxMaxima: comment end   ] */
+
+/* [wxMaxima: input   start ] */
+float(6007/(0.000405310*10^6));
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: comment start ]
+100000
+   [wxMaxima: comment end   ] */
+
+/* [wxMaxima: input   start ] */
+float(600007/(0.000523282*10^6));
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: comment start ]
+10000000
+   [wxMaxima: comment end   ] */
+
+/* [wxMaxima: input   start ] */
+float(60000007/(0.040160941*10^6));
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: section start ]
+MFLOPS
+   [wxMaxima: section end   ] */
+
+/* [wxMaxima: comment start ]
+10
+   [wxMaxima: comment end   ] */
+
+/* [wxMaxima: input   start ] */
+float(30/(0.000403428*10^6));
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: comment start ]
+1000
+   [wxMaxima: comment end   ] */
+
+/* [wxMaxima: input   start ] */
+float(3000/(0.000405310*10^6));
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: comment start ]
+100000
+   [wxMaxima: comment end   ] */
+
+/* [wxMaxima: input   start ] */
+float(300000/(0.000523282*10^6));
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: comment start ]
+10000000
+   [wxMaxima: comment end   ] */
+
+/* [wxMaxima: input   start ] */
+float(30000000/(0.040160941*10^6));
+/* [wxMaxima: input   end   ] */
+
+/* Maxima can't load/batch files which end with a comment! */
+"Created with wxMaxima"$

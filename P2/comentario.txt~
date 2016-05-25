@@ -1,0 +1,18 @@
+Página 8:
+Si un for no está asociado a un parallel for esa variable es compartida. En caso contrario será privada.
+Las variables static son por defecto compartidas.
+
+Página 14:
+Las variables private se inicializan a basura.
+Tras el parallel las variables private se pierden.
+
+Página 17:
+Last section devuelve el valor local de una de las hebras. En caso de:
+- for: la hebra a la que le ha tocado la última iteración.
+- section: la hebra a la que le ha tocado hizo el último section
+NO el valor de la última hebra.
+
+Página 26:
+La cláusula reduction toma como parámetro una variable que es compartida fuera de la región. Esa variable dentro de la construcción donde está reduction pasa a ser privada y se efectuan los cálculos locales oportunos. Esa variable que ha pasado a ser privada, tras la construcción paralela se realiza un cálculo global que auna todos los resultados parciales. Ese cálculo global puede ser cualquiera de las operaciones de la página 26. En el cálculo global, se tiene en cuenta el valor inicial de la variable compartida.
+
+Hacer 8 y 9.

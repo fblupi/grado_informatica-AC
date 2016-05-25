@@ -1,0 +1,289 @@
+#!/bin/bash
+
+export OMP_NUM_THREADS=1
+echo "1 PROCESADOR";
+N=100
+echo "TAMA = 100";
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+N=1000
+echo "TAMA = 1000";
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+N=10000
+echo "TAMA = 10000";
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+
+export OMP_NUM_THREADS=2
+echo "2 PROCESADOR";
+N=100
+echo "TAMA = 100";
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+N=1000
+echo "TAMA = 1000";
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+N=10000
+echo "TAMA = 10000";
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+
+export OMP_NUM_THREADS=3
+echo "3 PROCESADOR";
+N=100
+echo "TAMA = 100";
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+N=1000
+echo "TAMA = 1000";
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+N=10000
+echo "TAMA = 10000";
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+
+export OMP_NUM_THREADS=4
+echo "4 PROCESADOR";
+N=100
+echo "TAMA = 100";
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+N=1000
+echo "TAMA = 1000";
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+N=10000
+echo "TAMA = 10000";
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+
+export OMP_NUM_THREADS=5
+echo "5 PROCESADOR";
+N=100
+echo "TAMA = 100";
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+N=1000
+echo "TAMA = 1000";
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+N=10000
+echo "TAMA = 10000";
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+
+export OMP_NUM_THREADS=6
+echo "6 PROCESADOR";
+N=100
+echo "TAMA = 100";
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+N=1000
+echo "TAMA = 1000";
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+N=10000
+echo "TAMA = 10000";
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+
+export OMP_NUM_THREADS=7
+echo "7 PROCESADOR";
+N=100
+echo "TAMA = 100";
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+N=1000
+echo "TAMA = 1000";
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+N=10000
+echo "TAMA = 10000";
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+
+export OMP_NUM_THREADS=8
+echo "8 PROCESADOR";
+N=100
+echo "TAMA = 100";
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+N=1000
+echo "TAMA = 1000";
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+N=10000
+echo "TAMA = 10000";
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+
+export OMP_NUM_THREADS=9
+echo "9 PROCESADOR";
+N=100
+echo "TAMA = 100";
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+N=1000
+echo "TAMA = 1000";
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+N=10000
+echo "TAMA = 10000";
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+
+export OMP_NUM_THREADS=10
+echo "10 PROCESADOR";
+N=100
+echo "TAMA = 100";
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+N=1000
+echo "TAMA = 1000";
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+N=10000
+echo "TAMA = 10000";
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+
+export OMP_NUM_THREADS=11
+echo "11 PROCESADOR";
+N=100
+echo "TAMA = 100";
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+N=1000
+echo "TAMA = 1000";
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+N=10000
+echo "TAMA = 10000";
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+
+export OMP_NUM_THREADS=12
+echo "12 PROCESADOR";
+N=100
+echo "TAMA = 100";
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+N=1000
+echo "TAMA = 1000";
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+N=10000
+echo "TAMA = 10000";
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N
+$PBS_O_WORKDIR/pmv-OpenMP-reduction $N

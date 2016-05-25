@@ -1,0 +1,5 @@
+Las variables de control internas están definidas en el estándar de OpenMP y controladas por la implementación concreta de OpenMP y sus valores, pese a lo que digan las tablas, no son modificables. La forma de funcionar a la hora de modificar los parámetros de una ejecución siguen la estructura de prioridad de la diapositiva 2 pero en forma de capas de una cebolla. 
+
+shedule-guided reparte max{n/h,chunk} cada vez que una hebra le pide iteraciones.
+
+Traer hechos los ejercicios 8 y 9

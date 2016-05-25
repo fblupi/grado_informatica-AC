@@ -1,0 +1,9 @@
+Desenrollado de bucles -> Todas las instrucciones INDEPENDIENTES entre sí.
+
+En memoria cache por conjuntos -> Si coinciden dos identificadores en la caché se borra el primero para meter el segundo lo que producirá muchos fallos de caché.
+Em memoria asociativa -> Tarda más. Mayor latencia.
+
+Em memoria asociativa por conjuntos se aunan las ventajas de ambos.
+
+
+Implementación del 2 y apartado a del 1.
